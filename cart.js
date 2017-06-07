@@ -1,16 +1,17 @@
-var nameArray = [];
-
 var itemAdd = 0;
 function incrementItem1() {
     itemAdd++;
-alert( (itemAdd) + " Item Added")
+document.getElementById("box001").innerHTML;
+document.getElementById("final").innerHTML= "<h5> Item Added "+itemAdd+" </h5>"
+// alert( (itemAdd) + " Item Added")
 }
 
 var itemLess = 0;
 function decrementItem1() {
     itemLess++;
-    alert((itemLess) + " Item Removed")
-    // document.getElementsByClassName("addCart").innerHTML+="<p> "itemLess" hh </p>"
+    document.getElementById("box002").innerHTML;
+document.getElementById("final2").innerHTML= "<h5> Item Removed "+itemLess+" </h5>"
+    // alert((itemLess) + " Item Removed")
 }
 
 

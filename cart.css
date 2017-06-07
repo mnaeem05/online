@@ -827,3 +827,23 @@
     top: 130px;
     left: 1170px;
 }
+#final{
+    font-family: sans-serif;
+    position: absolute;
+    top: 180px;
+    font-weight: bold;
+    font-size: 15px;
+    left: 1170px;
+    cursor: pointer;
+    color: #5E13DF;
+}
+#final2{
+    font-family: sans-serif;
+    position: absolute;
+    top: 220px;
+    font-weight: bold;
+    font-size: 15px;
+    left: 1170px;
+    cursor: pointer;
+    color: #5E13DF;
+}
